@@ -23,18 +23,23 @@ namespace WebApplication3.Controllers
             return View();
             return Content(User.Identity.Name);
         }
-       /* [HttpPost]
-        public ActionResult Upload(HttpPostedFileBase upload)
+
+        public IActionResult Exit()
         {
-            if (upload != null)
-            {
-                // получаем имя файла
-                string fileName = System.IO.Path.GetFileName(upload.FileName);
-                // сохраняем файл в папку Files в проекте
-                upload.SaveAs(Server.MapPath("~/Files/" + fileName));
-            }
-            return RedirectToAction("Index");
-        }*/
+            return View();
+        }
+        /* [HttpPost]
+         public ActionResult Upload(HttpPostedFileBase upload)
+         {
+             if (upload != null)
+             {
+                 // получаем имя файла
+                 string fileName = System.IO.Path.GetFileName(upload.FileName);
+                 // сохраняем файл в папку Files в проекте
+                 upload.SaveAs(Server.MapPath("~/Files/" + fileName));
+             }
+             return RedirectToAction("Index");
+         }*/
         RUNContext _context;
         IHostingEnvironment _appEnvironment;
         public HomeController(RUNContext context, IHostingEnvironment appEnvironment)
