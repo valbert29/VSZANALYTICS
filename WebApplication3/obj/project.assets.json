@@ -12226,11 +12226,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MY WORK\\GITHUB\\VSZANALYTICS\\WebApplication3\\VSZANAL.csproj",
+      "projectUniqueName": "D:\\MY WORK\\PRIGEEGE!!!!!\\VSZANALYTICS\\WebApplication3\\VSZANAL.csproj",
       "projectName": "VSZANAL",
-      "projectPath": "D:\\MY WORK\\GITHUB\\VSZANALYTICS\\WebApplication3\\VSZANAL.csproj",
+      "projectPath": "D:\\MY WORK\\PRIGEEGE!!!!!\\VSZANALYTICS\\WebApplication3\\VSZANAL.csproj",
       "packagesPath": "C:\\Users\\valbe\\.nuget\\packages\\",
-      "outputPath": "D:\\MY WORK\\GITHUB\\VSZANALYTICS\\WebApplication3\\obj\\",
+      "outputPath": "D:\\MY WORK\\PRIGEEGE!!!!!\\VSZANALYTICS\\WebApplication3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
