@@ -63,7 +63,7 @@ using WebApplication3.Models;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(82, 1955, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9b187156230245f7952f2913a32e161f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "05f2833f701540d39d8b812c5188c6de", async() => {
                 BeginContext(88, 63, true);
                 WriteLiteral("\r\n    <title>Profile Page</title>\r\n    <meta charset=\"utf-8\">\r\n");
                 EndContext();
@@ -166,7 +166,7 @@ using WebApplication3.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(2039, 1345, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "241453237d0b49d5967d42a3b3b7ab8e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5aa36dc264584a5298012bf05227c298", async() => {
                 BeginContext(2045, 220, true);
                 WriteLiteral("\r\n    <div class=\"main\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-3-4\">\r\n                    <h1>Here you could Work with your Files: Add, Change, Delete and Sort, ");
                 EndContext();
@@ -189,7 +189,7 @@ using WebApplication3.Models;
                 ");
                 EndContext();
                 BeginContext(2653, 245, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ee6aa3b2d9ad41eaad86abc2b236dea0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "88893df57ed341f686384ecc4351ad03", async() => {
                     BeginContext(2748, 143, true);
                     WriteLiteral("\r\n                    <input type=\"file\" name=\"uploads\" /><br>\r\n                    <input type=\"submit\" value=\"Загрузить\" />\r\n                ");
                     EndContext();

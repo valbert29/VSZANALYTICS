@@ -64,6 +64,11 @@ namespace VSZANAL.Controllers
         {
             if (ModelState.IsValid)
             {
+                var login = HttpContext.Response.HttpContext.User.Identity.Name;
+                User user = await _context.Users.FirstOrDefaultAsync(u => u.Login == login);
+                userFile.Path = "/Files/" + userFile.Name;
+                userFile.Time = DateTime.Now;
+                userFile.UserId = user.Id;
                 _context.Add(userFile);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
