@@ -5,6 +5,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication3.Models;
@@ -72,11 +73,19 @@ namespace WebApplication3.Controllers
             return View(model);
         }
 
+        private async Task GetUser()
+        {
+
+        }
+
         private async Task Authenticate(string userName)
         {
+            User user = await db.Users.FirstOrDefaultAsync(u=>u.Login == userName);
+            var data = user.Files;
             // создаем один claim
             var claims = new List<Claim>
             {
+
                 new Claim(ClaimsIdentity.DefaultNameClaimType, userName)
             };
             // создаем объект ClaimsIdentity
