@@ -136,3 +136,8 @@ D:\MY WORK\PRIGEEGE!!!!!\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\VS
 D:\MY WORK\PRIGEEGE!!!!!\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\VSZANAL.pdb
 D:\MY WORK\PRIGEEGE!!!!!\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\VSZANAL.csproj.CopyComplete
 D:\MY WORK\PRIGEEGE!!!!!\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\Home\ProfilePage.g.cshtml.cs
+D:\MY WORK\PRIGEEGE!!!!!\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\UserFiles\Create.g.cshtml.cs
+D:\MY WORK\PRIGEEGE!!!!!\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\UserFiles\Delete.g.cshtml.cs
+D:\MY WORK\PRIGEEGE!!!!!\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\UserFiles\Details.g.cshtml.cs
+D:\MY WORK\PRIGEEGE!!!!!\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\UserFiles\Edit.g.cshtml.cs
+D:\MY WORK\PRIGEEGE!!!!!\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\UserFiles\Index.g.cshtml.cs

@@ -33,6 +33,7 @@ namespace WebApplication3.Controllers
         [HttpPost]
         public async Task<IActionResult> AddFile(IFormFileCollection uploads)
         {
+            var login = HttpContext.Response.HttpContext.User.Identity.Name;
             foreach (var uploadedFile in uploads)
             {
                 // путь к папке Files
@@ -42,8 +43,8 @@ namespace WebApplication3.Controllers
                 {
                     await uploadedFile.CopyToAsync(fileStream);
                 }
-                User user = await _context.Users.FirstOrDefaultAsync(u => u.Id==1);
-                UserFile file = new UserFile { Name = uploadedFile.FileName, Path = path, Time = DateTime.Now, User=user };
+                User user = await _context.Users.FirstOrDefaultAsync(u => u.Login==login);
+                UserFile file = new UserFile { Name = uploadedFile.FileName, Path = path, Time = DateTime.Now, UserId=user.Id };
                 _context.Files.Add(file);
             }
             _context.SaveChanges();
