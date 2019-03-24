@@ -61,7 +61,11 @@ using WebApplication3.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(25, 1829, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ba3446db33d448d3a4f83f834467bb68", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a61c456ea54c4789b09680a71a5d74f1", async() => {
+>>>>>>> master
                 BeginContext(31, 60, true);
                 WriteLiteral("\r\n    <title>Main Page</title>\r\n    <meta charset=\"utf-8\">\r\n");
                 EndContext();
@@ -159,7 +163,11 @@ using WebApplication3.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(1856, 2253, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1a508cd96cd34fad8eef77862ebd1aa3", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca1167f739f84f1e9f1a8531e690adbd", async() => {
+>>>>>>> master
                 BeginContext(1862, 252, true);
                 WriteLiteral("\r\n    <div class=\"main\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-3-4\">\r\n                    <p>Выберите Фильтр, по которому хотите провести анализ</p>\r\n                    <select class=\"slct\">\r\n");
                 EndContext();
@@ -173,7 +181,11 @@ using WebApplication3.Models;
                 WriteLiteral("                            ");
                 EndContext();
                 BeginContext(2223, 19, false);
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d7d14fbb13034e2a85d09838e375e8a8", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96db2ab7664443f49e6fb67dd485ac90", async() => {
+>>>>>>> master
                     BeginContext(2232, 1, false);
 #line 91 "C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\Views\Home\Index.cshtml"
                                Write(i);
@@ -238,7 +250,11 @@ using WebApplication3.Models;
                 WriteLiteral("                        <h3>Выберите файл для загрузки</h3>\r\n                        ");
                 EndContext();
                 BeginContext(3534, 267, false);
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a99dbce1922c4db4a6ad60e1542b93c8", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "848d1e4ec7cf476abc16473a5e4bc258", async() => {
+>>>>>>> master
                     BeginContext(3627, 167, true);
                     WriteLiteral("\r\n                            <input type=\"file\" name=\"uploads\" /><br>\r\n                            <input type=\"submit\" value=\"Загрузить\" />\r\n                        ");
                     EndContext();

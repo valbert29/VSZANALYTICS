@@ -23,6 +23,25 @@ namespace WebApplication3.Controllers
             return View();
         }
 
+<<<<<<< HEAD
+=======
+        public IActionResult Exit()
+        {
+            return View();
+        }
+        /* [HttpPost]
+         public ActionResult Upload(HttpPostedFileBase upload)
+         {
+             if (upload != null)
+             {
+                 // получаем имя файла
+                 string fileName = System.IO.Path.GetFileName(upload.FileName);
+                 // сохраняем файл в папку Files в проекте
+                 upload.SaveAs(Server.MapPath("~/Files/" + fileName));
+             }
+             return RedirectToAction("Index");
+         }*/
+>>>>>>> master
         RUNContext _context;
         IHostingEnvironment _appEnvironment;
         public HomeController(RUNContext context, IHostingEnvironment appEnvironment)
