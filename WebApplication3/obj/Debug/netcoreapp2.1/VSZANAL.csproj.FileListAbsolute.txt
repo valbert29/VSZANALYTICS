@@ -171,14 +171,11 @@ C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
-<<<<<<< HEAD
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\UserFiles\Create.g.cshtml.cs
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\UserFiles\Delete.g.cshtml.cs
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\UserFiles\Details.g.cshtml.cs
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\UserFiles\Edit.g.cshtml.cs
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\UserFiles\Index.g.cshtml.cs
-=======
->>>>>>> master
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\VSZANAL.RazorTargetAssemblyInfo.cache
@@ -187,7 +184,4 @@ C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\VSZANAL.dll
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\VSZANAL.pdb
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\VSZANAL.csproj.CopyComplete
-<<<<<<< HEAD
-=======
 C:\Users\darya\OneDrive\Рабочий стол\VSZANALYTICS\WebApplication3\obj\Debug\netcoreapp2.1\Razor\Views\Home\Exit.g.cshtml.cs
->>>>>>> master
